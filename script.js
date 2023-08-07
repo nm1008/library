@@ -55,4 +55,10 @@ newBookBtn.addEventListener("click", () => {
 submitForm.addEventListener("click", (e) => {
     e.preventDefault();
     addBookToLibrary()
+
+    const inputs = document.querySelectorAll("input")
+
+    inputs.forEach(input => {
+        input.value = "";
+    })
 })
