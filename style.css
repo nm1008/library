@@ -30,7 +30,7 @@ body{
 }
 
 .form-container{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     
@@ -63,8 +63,11 @@ input:active{
     border: 5px solid black
 }
 
-.form-control, .submit-form{
-    display: ;
+.submit-form{
+    position: absolute;
+    margin-top: 10px;
+    padding: 10px 180px;
+    border: 2px solid black
 }
 
 .container{
