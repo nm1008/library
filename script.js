@@ -27,16 +27,22 @@ function renderLibrary(){
         for(let i = 0; i < myLibrary.length; i++){
         let book = myLibrary[i]
         let createCard = document.createElement("div");
-        createCard.innerHTML = 
-            `
-            <div class="card">
-            <h2 class="title"> ${book.title}</h2>
-            <h4 class="author">By:${book.author}</h4>
-            <p>Pages: ${book.pages}</p>
-            
-            <button class="remove">Remove</button>
-            </div>
-            `
+            if(book.title === "" || book.author === "" || book.pages === null){
+                alert("Error")
+            }else{
+                createCard.innerHTML = 
+                `
+                <div class="card">
+                    <h2 class="title"> ${book.title}</h2>
+                    <h4 class="author">By:${book.author}</h4>
+                    <p>Pages: ${book.pages}</p>
+                    
+                    <button class="remove">Remove</button>
+                </div>
+                `
+            }
+
+       
         container.appendChild(createCard)
     }
 }
