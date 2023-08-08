@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     background-color: #6a9fa5;
@@ -33,7 +34,6 @@ body{
     display: none;
     justify-content: center;
     align-items: center;
-    
 }
 
 .form-control{
@@ -51,27 +51,33 @@ input{
     width: 300px;
     height: 35px;
     padding-left: 10px;
-    border: 2px solid black
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 input:active{
-    border: 5px solid black
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 .submit-form{
+    font-size: 18px;
+    font-weight: bolder;
     position: absolute;
     margin-top: 10px;
     padding: 10px 180px;
-    border: 2px solid black
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .container{
     margin: 100px 20px 20px 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 50px;
 }
-
 
 .card{
     width: 250px;
@@ -92,8 +98,29 @@ input:active{
     margin-bottom: 10px;
 }
 
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
 
 .remove{
+    padding:10px 15px;
+    width: 100px;
+    background-color: red;
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid red;
+}
+
+.read{
+    width: 100px;
     padding:10px 20px;
-    margin-top: 20px;
+    background-color: green;
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid green;
 }
