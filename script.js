@@ -60,7 +60,6 @@ function renderLibrary() {
                     </button>
                     <button class="remove" onclick="removeBook(${i})">Remove</button>
                 </div>
-                
             </div>
             `;
     container.appendChild(createCard);
