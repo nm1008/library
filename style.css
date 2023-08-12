@@ -1,126 +1,127 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    background-color: #6a9fa5;
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  background-color: #6a9fa5;
 }
 
-.header{
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.header {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.header h1{
-    font-size: 55px;
+.header h1 {
+  font-size: 55px;
 }
 
-.new-book{
-    width: 200px;
-    height: 50px;
-    margin: 20px;
-    border:3px solid black;
-    border-radius: 10px;
-    font-size: 25px;
+.new-book {
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 25px;
 }
 
-.form-container{
-    display: none;
-    justify-content: center;
-    align-items: center;
+.form-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.form-control{
-    display: table-row; 
+.form-control {
+  display: table-row;
 }
 
-label{ 
-    display: table-cell;
-    font-size: 24px;
+label {
+  display: table-cell;
+  font-size: 24px;
 }
 
-input{
-    display: table-cell;
-    margin: 10px 0px 10px 30px;
-    width: 300px;
-    height: 35px;
-    padding-left: 10px;
-    border: 2px solid black;
-    border-radius: 10px;
+input {
+  display: table-cell;
+  margin: 10px 0px 10px 30px;
+  width: 300px;
+  height: 35px;
+  padding-left: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
-input:active{
-    border: 5px solid black;
-    border-radius: 10px;
+input:active {
+  border: 5px solid black;
+  border-radius: 10px;
 }
 
-.submit-form{
-    font-size: 18px;
-    font-weight: bolder;
-    position: absolute;
-    margin-top: 10px;
-    padding: 10px 180px;
-    border: 2px solid black;
-    border-radius: 10px;
+.submit-form {
+  font-size: 18px;
+  font-weight: bolder;
+  position: absolute;
+  margin-top: 10px;
+  padding: 10px 180px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
-.container{
-    margin: 100px 20px 20px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
+.container {
+  margin: 100px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
-.card{
-    width: 250px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-    justify-content: center;
-    border: 5px solid black;
-    background-color: #fbd082;
-    border-radius: 10px;
-    padding: 20px
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  justify-content: center;
+  border: 5px solid black;
+  background-color: #fbd082;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-.author{
-    margin-top: 20px;
-    margin-bottom: 10px;
+.author {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.buttons{
-    margin-top: 20px;
-    display: flex;
-    gap: 10px;
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
 }
 
-.remove{
-    padding:10px 15px;
-    width: 100px;
-    background-color: red;
-    font-size: 14px;
-    font-weight: bolder;
-    color: white;
-    border-radius: 10px;
-    border: 5px solid red;
+.remove {
+  padding: 10px 15px;
+  width: 100px;
+  background-color: red;
+  font-size: 14px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 10px;
+  border: 5px solid red;
 }
 
-.read{
-    width: 100px;
-    padding:10px 20px;
-    background-color: green;
-    font-weight: bolder;
-    color: white;
-    border-radius: 10px;
-    border: 5px solid green;
+.read {
+  width: 100px;
+  padding: 10px 20px;
+  background-color: green;
+  font-weight: bolder;
+  color: white;
+  border-radius: 10px;
+  border: 5px solid green;
 }
